@@ -1,0 +1,27 @@
+{
+  "name": "odin-project-using-postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file=.env app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasun-Uni/odin-project-using-postgresql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kasun-Uni/odin-project-using-postgresql/issues"
+  },
+  "homepage": "https://github.com/Kasun-Uni/odin-project-using-postgresql#readme",
+  "dependencies": {
+    "ejs": "^7.0.1",
+    "express": "^5.2.1",
+    "pg": "^8.23.1"
+  }
+}
